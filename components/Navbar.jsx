@@ -58,6 +58,10 @@ export default function Navbar() {
                 <Button variant="ghost">Notícias</Button>
               </Link>
 
+              <Link href="https://programacao-ten.vercel.app/">
+                <Button variant="ghost">Programação</Button>
+              </Link>
+
               <Link href="/#contato">
                 <Button variant="ghost">Contato</Button>
               </Link>
@@ -84,6 +88,9 @@ export default function Navbar() {
                   </Link>
                   <Link href="/#isn">
                     <MenuItem>Notícias</MenuItem>
+                  </Link>
+                  <Link href="https://programacao-ten.vercel.app/">
+                    <MenuItem>Programação</MenuItem>
                   </Link>
                   <Link href="/#contato">
                     <MenuItem>Contato</MenuItem>
